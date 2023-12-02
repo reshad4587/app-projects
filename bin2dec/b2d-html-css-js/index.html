@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Bin2Dec Converter</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Bin2Dec Converter</h1>
+            <label for="binaryInput">Enter Binary:</label>
+            <input type="text" id ="binaryInput" maxlength="8" placeholder="Enter binary digits (0 or 1)">
+            <button onclick="convertBinary()">Convert</button>
+            <p id="result">Decimal Equivalent:</p>
+            <p id="error"></p>
+        </div>
+        <script src="converter.js"></script>
+    </body>
+</html>
